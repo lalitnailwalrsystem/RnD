@@ -1,0 +1,65 @@
+{
+  "id": "lalit.nailwal@rsystems.com",
+  "userid": "lalit.nailwal@rsystems.com",
+  "APIEndPoint": "REST",
+  "ConnectorName": "Calculator",
+  "HostName": "www.dneonline.com/calculator.asmx",
+  "actions": {
+    "Add": {
+      "Verbs": "POST",
+      "OperationId": "Add",
+      "APIName": "Add",
+      "Header": "[\"text/plain\",\"application/json\",\"text/json\"]",
+      "Body": "[{\"in\": \"path\",\"name\": \"q\",\"required\": true,\"type\": \"string\"}]"
+    },
+    "AddAsync": {
+      "Verbs": "POST",
+      "OperationId": "AddAsync",
+      "APIName": "AddAsync",
+      "Header": "[\"text/plain\",\"application/json\",\"text/json\"]",
+      "Body": "[{\"in\": \"path\",\"name\": \"q\",\"required\": true,\"type\": \"string\"}]"
+    },
+    "Subtract": {
+      "Verbs": "POST",
+      "OperationId": "Subtract",
+      "APIName": "Subtract",
+      "Header": "[\"text/plain\",\"application/json\",\"text/json\"]",
+      "Body": "[{\"in\": \"path\",\"name\": \"q\",\"required\": true,\"type\": \"string\"}]"
+    },
+    "SubtractAsync": {
+      "Verbs": "POST",
+      "OperationId": "SubtractAsync",
+      "APIName": "SubtractAsync",
+      "Header": "[\"text/plain\",\"application/json\",\"text/json\"]",
+      "Body": "[{\"in\": \"path\",\"name\": \"q\",\"required\": true,\"type\": \"string\"}]"
+    },
+    "Multiply": {
+      "Verbs": "POST",
+      "OperationId": "Multiply",
+      "APIName": "Multiply",
+      "Header": "[\"text/plain\",\"application/json\",\"text/json\"]",
+      "Body": "[{\"in\": \"path\",\"name\": \"q\",\"required\": true,\"type\": \"string\"}]"
+    },
+    "MultiplyAsync": {
+      "Verbs": "POST",
+      "OperationId": "MultiplyAsync",
+      "APIName": "MultiplyAsync",
+      "Header": "[\"text/plain\",\"application/json\",\"text/json\"]",
+      "Body": "[{\"in\": \"path\",\"name\": \"q\",\"required\": true,\"type\": \"string\"}]"
+    },
+    "Divide": {
+      "Verbs": "POST",
+      "OperationId": "Divide",
+      "APIName": "Divide",
+      "Header": "[\"text/plain\",\"application/json\",\"text/json\"]",
+      "Body": "[{\"in\": \"path\",\"name\": \"q\",\"required\": true,\"type\": \"string\"}]"
+    },
+    "DivideAsync": {
+      "Verbs": "POST",
+      "OperationId": "DivideAsync",
+      "APIName": "DivideAsync",
+      "Header": "[\"text/plain\",\"application/json\",\"text/json\"]",
+      "Body": "[{\"in\": \"path\",\"name\": \"q\",\"required\": true,\"type\": \"string\"}]"
+    }
+  }
+}
